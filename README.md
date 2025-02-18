@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: attempting to create multiple mutable references to the same variable.  Rust's ownership system prevents this to avoid data races. The `bug.rs` file shows the code that attempts this, resulting in a compile-time error.  `bugSolution.rs` shows how this can be resolved by using techniques like cloning or immutable references.
